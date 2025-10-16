@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sharjeel Ahmad — MERN Stack Developer</title>
+  <meta name="description" content="Sharjeel Ahmad — MERN Stack Developer skilled in React, Node.js, Express, MongoDB, Shopify & WordPress. Let's build your next digital success story.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#0f1724">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <svg class="logo" viewBox="0 0 100 100">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="#7c3aed"/>
+              <stop offset="1" stop-color="#06b6d4"/>
+            </linearGradient>
+          </defs>
+          <circle cx="50" cy="50" r="44" fill="url(#g1)"></circle>
+          <text x="50" y="57" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="36" fill="#fff">SA</text>
+        </svg>
+        <span class="brand-text">Sharjeel Ahmad</span>
+      </a>
+
+      <nav class="nav" id="main-nav">
+        <a href="#services">Services</a>
+        <a href="#work">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-controls="main-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+       <h1 class="title animated-title" id="animatedTitle"></h1>
+
+        <p class="lead">MERN Stack Developer & Client Hunter 🕵️‍♂️ — I build responsive web apps using React, Node.js, Express & MongoDB. Also skilled in Shopify and WordPress to help your business grow online.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="openHireModal">Hire Me</button>
+          <a class="btn btn-outline" href="https://github.com/7Jimmy" target="_blank">View GitHub</a>
+        </div>
+        <ul class="meta">
+          <li><strong>Email:</strong> <a href="mailto:sharjeel.graphics.web@gmail.com">sharjeel.graphics.web@gmail.com</a></li>
+          <li><strong>Phone:</strong> +92 343 6435979</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="device-card card-1">
+  <div class="mock-screen">
+    <div class="pulse">
+      <img src="profile.png" alt="Sharjeel Ahmad" class="profile-img">
+    </div>
+  </div>
+</div>
+
+        <div class="device-card card-2">
+          <div class="mock-screen mini-2"><div class="tag">MERN</div></div>
+        </div>
+        <div class="device-card card-3">
+          <div class="mock-screen mini-3"><div class="tag">Shopify</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">What I Do</h2>
+      <p class="section-sub">Building digital experiences that grow your brand 🚀</p>
+      <div class="services-grid">
+        <article class="service" data-animate>
+          <div class="icon">⚙️</div>
+          <h3>MERN Stack Development</h3>
+          <p>Dynamic, scalable web apps using React, Node.js, Express, and MongoDB with modern architecture.</p>
+        </article>
+        <article class="service" data-animate>
+          <div class="icon">🛒</div>
+          <h3>Shopify & E-Commerce</h3>
+          <p>Custom Shopify stores that convert visitors into paying customers with optimized UX and performance.</p>
+        </article>
+        <article class="service" data-animate>
+          <div class="icon">🖋️</div>
+          <h3>WordPress Development</h3>
+          <p>Powerful, SEO-optimized WordPress websites that are fast, flexible, and easy to manage.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project" data-animate>
+          <div class="project-media" style="background:linear-gradient(135deg,#7c3aed,#06b6d4)">
+            <div class="proj-tag">Mobile App</div>
+          </div>
+          <div class="project-body">
+            <h3>Cotton Expert Doctor</h3>
+            <p>React Native app providing AI-based solutions for cotton crop disease detection with modern UI.</p>
+            <div class="project-actions">
+              <a href="https://github.com/7Jimmy" target="_blank" class="btn btn-sm">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-text" data-animate>
+        <h2 class="section-title">About Me</h2>
+        <p>I’m a passionate Software Engineer focused on creating clean, high-quality code and modern web experiences. With hands-on MERN stack experience from Unisoftwares, Devcotk, and Soft Enterprise, I bring both creativity and problem-solving to every project.</p>
+        <ul class="facts">
+          <li><strong>Education:</strong> BS Software Engineering, University of Lahore (2020–2024)</li>
+          <li><strong>Languages:</strong> JavaScript, C++, Python</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-cta">
+    <div class="container">
+      <h2>Let’s Build Something Amazing</h2>
+      <p>Whether you need a web app, Shopify store, or business website — I can help you grow online.</p>
+      <button class="btn btn-primary" id="openHireModal2">Hire Me</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <h3>Sharjeel Ahmad</h3>
+        <p class="tagline">MERN Stack Developer & Digital Creator</p>
+      </div>
+      <div class="footer-center">
+        <a href="mailto:sharjeel.graphics.web@gmail.com">📧 Email</a>
+        <a href="https://github.com/7Jimmy" target="_blank">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/sharjeel-ahmad-web-developer-2646361b7" target="_blank">💼 LinkedIn</a>
+      </div>
+      <div class="footer-right">
+        <p>© <span id="year"></span> Sharjeel Ahmad. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- HIRE ME MODAL -->
+  <div id="hireMeModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <h3>Hire Sharjeel Ahmad</h3>
+      <p>Let’s discuss your project idea and how I can help bring it to life.</p>
+      <form id="hireForm">
+        <label>
+          <span>Your Name</span>
+          <input type="text" id="clientName" required placeholder="John Doe">
+        </label>
+        <label>
+          <span>Your Email</span>
+          <input type="email" id="clientEmail" required placeholder="john@example.com">
+        </label>
+        <label>
+          <span>Project Details</span>
+          <textarea id="clientMsg" rows="3" required placeholder="Briefly describe your project"></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Send Email</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
